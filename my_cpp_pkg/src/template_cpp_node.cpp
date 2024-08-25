@@ -1,12 +1,13 @@
 #include "/rclcpp/rclcpp/rclcpp.hpp"
 
-class MyCustomeNode: public plccpp::Node
+
+class MyCustomeNode: public rclcpp::Node
 {
  public:
     MyCustomNode() : Node("my_node")
     {
     }
-    private:
+  private:
 }
 
 int main(int argc, char ** argv)
