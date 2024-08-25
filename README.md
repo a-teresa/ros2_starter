@@ -7,11 +7,11 @@
 <h3>Present work stage</h3>
 
 <p>This repository contains only the source directory which is contained in the ros2 workspace. </p>
-<p>A ros 2 environment was setup in a virtual machine, nodes have been created in both python and c++, and node communication has been explored. In the following image, we can see a publisher node and a subscriber node:
+<p>A ros 2 environment was set up in a virtual machine, nodes were created in both python and c++, and node communication was explored. In the following image, we can see a publisher node and a subscriber node:
 </p>
 <ul>1 - on the top left console: the publisher starts; </ul>
 <ul> 2 - on the right top console, we can see the result of the topic, by running: ros topic echo /robot_news</ul>
-<ul>3 - on the bottom console, we can see the subscriber result, printing the topic emitted by the publisher; if the publisher stops, the subscriber is independent, the spin continues, but no longer will be printing the topic. As soon as the publisher starts again, the topic will be printed by the subscriber. </ul>
+<ul>3 - on the bottom console, we can see the subscriber result, printing the topic emitted by the publisher; if the publisher stops, the subscriber is independent, and the spin continues, but no longer will be printing the topic. As soon as the publisher starts again, the topic will be printed by the subscriber. </ul>
 
 <img src="https://github.com/a-teresa/ros2_starter/blob/main/node_communication_example.png"></img>
 
