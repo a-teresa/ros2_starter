@@ -11,7 +11,7 @@
 </p>
 <ul>1 - on the top left console: the publisher starts; </ul>
 <ul> 2 - on the right top console, we can see the result of the topic, by running: ros topic echo /robot_news</ul>
-<ul>3 - on the bottom console, we can see the subscriber result, printing the topic emitted by the publisher; if the publisher stops, the subscriber is independent, the spin continues, but no longer will be printing the topic. </ul>
+<ul>3 - on the bottom console, we can see the subscriber result, printing the topic emitted by the publisher; if the publisher stops, the subscriber is independent, the spin continues, but no longer will be printing the topic. As soon as the publisher starts again, the topic will be printed by the subscriber. </ul>
 
 <img src="https://github.com/a-teresa/ros2_starter/blob/main/node_communication_example.png"></img>
 
