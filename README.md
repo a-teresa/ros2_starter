@@ -7,7 +7,7 @@
 <h3>Present work stage</h3>
 
 <p>This repository contains only the source directory which is contained in the ros2 workspace. </p>
-<p>A ros 2 environment was setup in a vertual machine, nodes have been created in both python and c++, and node communication has been explored. In the following image, we can see a publisher node and a subscriber node:
+<p>A ros 2 environment was setup in a virtual machine, nodes have been created in both python and c++, and node communication has been explored. In the following image, we can see a publisher node and a subscriber node:
 </p>
 <ul>1 - on the top left console: the publisher starts; </ul>
 <ul> 2 - on the right top console, we can see the result of the topic, by running: ros topic echo /robot_news</ul>
