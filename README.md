@@ -19,7 +19,7 @@
 <ul>A - Continue to explore communications between nodes (client/server communication between nodes)</ul>
 <ul> B - include ROS simulation (gazebo) and URFD (unified robot description format)</ul>
 <ul> C - object detection using deep learning project</ul>
-<ul>D - Real time vision depth perception on both jetson nano island raspberrypi, ntegrating real time feed</ul>
+<ul>D - Real-time vision depth perception on both jetson nano island raspberrypi, integrating real-time feed</ul>
 
 
 <h5>References:</h5>
